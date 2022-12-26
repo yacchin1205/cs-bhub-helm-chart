@@ -62,6 +62,18 @@ entries:
     - https://yacchin1205.github.io/cs-bhub-helm-chart/binderhub-0.2.0-jhub-1.1.3.n062.h95d9fb7.tgz
     version: 0.2.0-jhub-1.1.3.n062.h95d9fb7
   - apiVersion: v1
+    created: "2022-12-26T14:44:42.523236+09:00"
+    dependencies:
+    - name: jupyterhub
+      repository: https://yacchin1205.github.io/cs-jhub-helm-chart/
+      version: 1.1.3-n035.hee9e45ab
+    description: A helm chart to install Binder
+    digest: 092371238d6530dabbfcb42427595762c02c9e0db70b49cc12db237f1a1effea
+    name: binderhub
+    urls:
+    - https://yacchin1205.github.io/cs-bhub-helm-chart/binderhub-0.2.0-jhub-1.1.3.n056.h6b441a1.tgz
+    version: 0.2.0-jhub-1.1.3.n056.h6b441a1
+  - apiVersion: v1
     created: "2022-10-26T14:04:41.7238106+09:00"
     dependencies:
     - name: jupyterhub
@@ -301,4 +313,4 @@ entries:
     urls:
     - https://yacchin1205.github.io/cs-bhub-helm-chart/binderhub-0.2.0-jhub-1.1.3.n002.h4111e31.tgz
     version: 0.2.0-jhub-1.1.3.n002.h4111e31
-generated: "2022-12-16T11:44:51.9787926+09:00"
+generated: "2022-12-26T14:44:42.5044576+09:00"
